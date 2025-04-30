@@ -1,10 +1,8 @@
 """tinyurl_mcp_server package"""
 
-from .server import mcp
-
 def main():
     """Entry point for the MCP server"""
-    mcp.run(transport='stdio')
+    print("tinyurl_mcp_server is running!")
 
 if __name__ == "__main__":
     main()
